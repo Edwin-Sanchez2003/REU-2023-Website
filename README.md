@@ -4,7 +4,6 @@ This is the website for the 2023 REU program at Indiana University-Purdue Univer
 
 ## TODO:
 - Get due date for Papers from Josh & Vinay
-- Get Finished Papers from all students
 - Get date for final workshop from David & Ellie
 - Get the following from **ALL** Students:
     - Photo(s)
