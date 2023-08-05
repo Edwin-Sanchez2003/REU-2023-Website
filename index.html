@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<title>2022 IUPUI REU Workshop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css" />
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-large w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"> About</a>
+    <a href="#committee" class="w3-bar-item w3-button w3-hide-small"> Committee</a>
+    <a href="#publications" class="w3-bar-item w3-button w3-hide-small"> Publications</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-blue-grey w3-hide w3-hide-large w3-hide-medium">
+   <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#committee" class="w3-bar-item w3-button" onclick="toggleFunction()">COMMITTEE</a>
+    <a href="#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-blue-grey w3-xlarge w3-wide w3-animate-opacity">2022 <span class="w3-hide-small">IUPUI</span> REU WORKSHOP</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">About</h3>
+
+<p align = center>
+<b>Overview</b></br> The 2022 IUPUI REU Workshop will showcase the research projects conducted during the 2022 Mobile Cloud and Data Security Research Experience for Undergraduates (REU) program at Indiana University-Purdue University Indianapolis. The focus of the workshop is on data science and cybersecurity, but some projects also focus on topics such as Artificial Intelligence and Human-Computer Interaction. The workshop will be hosted online on friday, August 12, 2022 from 10:00 a.m. to 1:00 p.m EST.
+</p>
+
+<p align = center>
+<b>Review Process</b></br>Papers should be submitted by August 9 at 11:59 p.m. PST to Kritika Verma or Sofia Khemani. All submissions will be peer reviewed by two reviewers. The review process will end on August 11 at 4:00 p.m.
+</p>
+
+<p align = center>
+<b>Paper Format</b></br>Papers should adhere to the IEEE manuscript standard, be at least five pages, and be submitted as PDFs.
+</p>
+
+<!-- Container (Committee Section) -->
+<div class="w3-content w3-container w3-padding-64" id="committee">
+  <h3 class="w3-center">Committee</h3>
+
+<p align = center>
+<b> General Co-Chairs</b><br />
+Croix Gyurek and Emma Tong<br />
+<b>Website Chairs:</b><br />
+Cary Xiao and Nam Pham<br />
+<b>Technical Program Chairs:</b><br />
+Kritika Verma and Sofia Khemani<br />
+<b>Poster Chairs:</b><br />
+Kalika Raje and Julia Zeng<br />
+<b>Publicity Chairs:</b><br />
+Brevon Gude and Charles Richards
+</p>
+
+<!-- Container (Publications Section) -->
+<div class="w3-content w3-container w3-padding-64" id="publications">
+  <h3 class="w3-center">Publications</h3>
+
+  <p class="w3-center"><em><font size="4.5">Patient-GAT: Disease Prediction using Multi-modal Data Fusion and Weighted Graph Attention Networks</font></em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Cary Xiao and Nam Pham</b></p> 
+      <img src="PICTURES/caryandnam.jpg" class="w3-round w3-image" alt="Photo of Me" width="300" height="399">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small ">
+      <p><b>Abstract:</b>The recent, widespread adoption of Electronic Health Record (EHR) data enables real-world patient similarity networks to be easily generated and analyzed. Graph Attention Networks have been extensively used to perform node-level classification on graphs. However, few papers have investigated the effectiveness of using Graph Attention Networks (GATs) on graph representations of patient similarity networks. This paper proposes Patient-GAT, a novel method to predict chronic health conditions by first integrating imputed lab variables with other structured data for patient representation. This data is then used to construct a patient network by measuring patient similarity, finally applying GAT to the patient network for health status prediction. We demonstrate our framework by predicting using real-world Electronic Health Records obtained from the Indiana University Medical Hospital. Experiments show that our approach meets or outperforms other methods using Area Under ROC Curve (AUC) metric. &nbsp<!--<a href="POSTERS/KelbyDarshan.pdf"><b>Read More</b></a>-->
+
+</p>
+    </div>
+  </div>
+
+<p>&nbsp</p>
+
+<p class="w3-center"><em><font size="4.5">Evaluating Various Defense Techniques Against Targeted Poisoning Attacks in Federated Learning</font></em></p>
+<div class="w3-row">
+    <div class="w3-col m6 w3-center">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Charles Richards and Sofia Khemani</b></p>
+      <img src="PICTURES/charlesandsofia.png" class="w3-round w3-image" alt="Photo of Me" width="300" height="399">
+
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <p><b>Abstract:</b> Federated Learning (FL) allows individual clients to train a global model by aggregating local model updates each round. This results in collaborative model training while maintaining the privacy of clients' sensitive data. However, malicious clients can join the training process and train with poisoned data or send artificial model updates in targeted poisoning attacks. Many defenses to targeted poisoning attacks rely on anomaly-detection based metrics which remove participants that deviate from the majority. Similarly, aggregation-based defenses aim to reduce the impact of outliers, while L2-norm clipping tries to scale down the impact of malicious models. However, oftentimes these defenses misidentify benign clients as malicious or only work under specific attack conditions. In our paper, we examine the effectiveness of two anomaly-detection metrics on two different aggregation methods, in addition to the presence of L2-norm clipping and weight selection, across two different types of attacks. We also combine different defenses in order to examine their interaction. &nbsp<!--<a href="POSTERS/Nash.pdf"><b>Read More</b></a>-->
+
+</p>
+    </div>
+  </div>
+
+<p>&nbsp</p>
+
+<p class="w3-center"><em><font size="4.5">Point Cloud Image Classification Via Machine Learning</em></font></p>
+<div class="w3-row">
+    <div class="w3-col m6 w3-center">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Kalika Raje and Julia Zeng</b></p>
+      <img src="PICTURES/kalikaandjulia.png" class="w3-round w3-image" alt="Photo of Me" width="300" height="399">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <p><b>Abstract:</b>  With the increase in digital communications, there are growing concerns about privacy threats and digital tracking. Thus, mmWave radar has been utilized in many systems to avoid concerns with other widely-used methods (e.g. vision-based, lidar-based systems, etc). Current research uses mmWave radar signals to generate point cloud images that reflect the locations of objects intended for tracking and identification. However, the varying quality of the generated point cloud images may impact the accuracy of gesture recognition and object tracking. As such, it is critical to be able to distinguish quality point cloud images for better performance. In this paper we present an analysis on multiple machine learning algorithms' abilities to classify higher and lower quality point clouds. We find that convolutional neural networks, known for their image processing abilities, performed best at classification. &nbsp<!--<a href="POSTERS/Ravynne.pdf"><b>Read More</b></a></p>-->
+    </div>
+  </div>
+
+<p>&nbsp</p>
+
+<p class="w3-center"><em><font size="4.5">Quantifying Text Data Quality for Pedestrian Behavior Prediction by Autonomous Vehicles</font></em></p>
+<div class="w3-row">
+    <div class="w3-col m6 w3-center">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Brevon Gude and Emma Tong</b></p>
+      <img src="PICTURES/brevonandemma.png" class="w3-round w3-image" alt="Photo of Me" width="300" height="399">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <p><b>Abstract:</b>  Along with recent proliferation in computing technologies, multiple modalities such as image/video data and sensor data have been used to improve the decision making ability of autonomous vehicles, such as pedestrian-intent trajectories prediction. To further progress toward a solution to better predict pedestrian behavior, we argue that text data, which closely reflects human's thought process, would be a potential modality that may enhance the reasoning mechanism of machine learning models. In order to collect such quality text data, we introduced a comprehensive data annotation tool equipped with user-assistive, data-enhancing features known as the Object Level Grounding (OLG). However, little evaluation has been done so far on the OLG feature, leaving us to question whether such feature would elevate the ability for models to predict pedestrian behavior or not. In this paper, we propose a general approach to assess the OLG feature through quantitative analysis, defining new metrics for measuring the quality of text data. We further discuss some of the limitations of our studies and suggestions for future works.
+        &nbsp<!--<a href="POSTERS/Brandon.pdf"><b>Read More</b></a>-->
+ 
+
+</p>
+    </div>
+  </div>
+
+<p>&nbsp</p>
+
+<p class="w3-center"><em><font size="4.5">Brief Survey of Cryptographic Attribute-Based Access Control Systems</font></em></p>
+<div class="w3-row">
+    <div class="w3-col m6 w3-center">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Croix Gyurek and Kritika Verma</b></p>
+      <img src="PICTURES/croixandkritika.png" class="w3-round w3-image" alt="Photo of Me" width="300" height="399">
+
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <p><b>Abstract:</b>  With the growing number of attackers that are trying to access important data files in big corporate companies or even small but major companies, technology also needs to move with it. Access control allows us to control who can and cannot view certain documents.
+        One method for enforcing this is Attribute-Based Access Control (ABAC), where files are allowed or blocked based on ``attributes'', which are binary properties that a user can have or not have. Users can have multiple attributes and policies can be based on arbitrary Boolean functions of these attributes, so implementations of ABAC must be designed specifically for these policies.
+        In this research paper, we surveyed three main research papers that used different schemes to design a stronger and more efficient ABAC model.
+        All three methods relied on bilinear maps to allow the decryption step to derive mask values from the encryption step based on the user's key, without allowing multi-user collusion or key forgery.
+        Two out of the three papers used the Linear Secret Sharing Scheme (LSSS) matrix to represent policies numerically, and one of them used recursion and polynomial interpolation in their decryption step.
+        All three systems claim to be resistant to attacks, but only two provided explicit hardness assumptions to justify such claims, and one paper relied on the hardness of four different, though related, problems to maintain all security.
+        In this paper, we take a look at all three papers and compare the three papers with each other. We also discuss the efficiency of the schemes as the number of attributes increase.
+
+</p>
+    </div>
+  </div>
+
+<p>&nbsp</p>
+
+
+
+
+
+
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+var navbar = document.getElementById("myNavbar");
+navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-blue-grey";
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
